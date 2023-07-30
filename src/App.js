@@ -19,7 +19,7 @@ function App() {
       <div>
         <h2>Лічильник:</h2>
         <h1>{count}</h1>
-        <button onClick={() => onClickMinus()} className="minus"> Мінус</button>
+        <button onClick={() => onClickMinus()} className="minus">- Мінус</button>
         <button onClick={() => onClickPlus()} className="plus">Плюс +</button>
       </div>
     </div>
